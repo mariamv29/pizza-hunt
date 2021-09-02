@@ -5,9 +5,13 @@ const PizzaSchema = new Schema(
   {
     pizzaName: {
       type: String,
+      required: true, 
+      trim: true
     },
     createdBy: {
       type: String,
+      required: true, 
+      trim: true
     },
     createdAt: {
       type: Date,
