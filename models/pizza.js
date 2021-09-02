@@ -19,9 +19,11 @@ const PizzaSchema = new Schema(
       get: (createdAtVal) => dateFormat(createdAtVal),
     },
     size: {
-      type: String,
-      default: "Large",
-    },
+        type: String,
+        required: true,
+        enum: ['Personal', 'Small', 'Medium', 'Large', 'Extra Large'],
+        default: 'Large'
+      },
     toppings: [],
     comments: [
       {
