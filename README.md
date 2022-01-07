@@ -5,7 +5,12 @@ Pizza-Hunt is a web app create for the company and pizza store, pizza-hunt. The 
 This app is built using Mongoose. 
 
 
+## Screenshot
 ![screenshot](./assets/images/pizza.jpg)
+
+## Deployment
+
+[Link](https://obscure-hamlet-00557.herokuapp.com/)
 
 
 
